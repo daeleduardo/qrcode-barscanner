@@ -113,14 +113,14 @@ function addQrCode(item) {
         return false;
     }
 
-    if (localStorage.getItem('qrcodes') == null) {
-        localStorage.setItem('qrcodes', JSON.stringify([]));
+    if (localStorage.getItem('codes') == null) {
+        localStorage.setItem('codes', JSON.stringify([]));
     }
 
-    let arr = JSON.parse(localStorage.getItem('qrcodes'));
+    let arr = JSON.parse(localStorage.getItem('codes'));
     arr.push(item);
 
-    localStorage.setItem('qrcodes', JSON.stringify(arr));
+    localStorage.setItem('codes', JSON.stringify(arr));
     setMsg("QR Code Scaneado com sucesso.");
 
     document.getElementById("list").innerHTML += `      

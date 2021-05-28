@@ -6,6 +6,8 @@ Prova de conceito que tem como objetivo ler (com a camera ou upload de arquivo) 
 
 Você pode testar através deste [link](https://flamboyant-brattain-304493.netlify.app), ou baixar o repositório, e abrir o arquivo index.html no Google Chrome ou Firefox, dar a permissão de acesso a câmera caso for usa-la como scanner e começar a usar. :slightly_smiling_face:
 
+Os dados são armazenados no localstorage com a chave ***'codes'*** que é limpa a cada atualização de página.
+
 
 #### Créditos:
 
