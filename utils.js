@@ -5,7 +5,7 @@
     Por padrão o tamanho da área para deteção será metade da área do quadro da camera.
 */
 
-var boxCameraScreen = Math.ceil((((screen.width > screen.height) ? screen.width : screen.height) * 0.5));
+var boxCameraScreen = Math.ceil((((screen.width > screen.height) ? screen.width : screen.height) * 0.4));
 var boxQrCodeScreen = Math.ceil((boxCameraScreen / 2));
 var elementReaderId = "qr-reader";
 
